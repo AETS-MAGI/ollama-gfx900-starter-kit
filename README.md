@@ -12,6 +12,12 @@ Upstream Ollama does not support gfx900. This kit provides the compiled HIP/ROCm
 
 > **Scope:** Linux + ROCm only. Windows HIP excludes gfx900 upstream and is not supported here.
 
+## Repository Role Split
+
+- `ollama-gfx900-starter-kit` is the distribution repository for prebuilt artifacts.
+- `ollama-src` is the source-of-truth for patches, implementation details, and validation notes.
+- Cleanup policy is non-destructive: keep investigation history in source, and publish user-facing binaries via starter-kit releases.
+
 ---
 
 ## What's Included
