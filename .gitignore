@@ -1,0 +1,52 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.dylib
+*.dll
+# .so files are excluded by default, but build artifacts in build-gfx900/ are intentionally tracked
+*.so
+!build-gfx900/lib/ollama/*.so
+
+# CMake / Ninja build metadata (not part of the distributable kit)
+build-gfx900/CMakeFiles/
+build-gfx900/CMakeCache.txt
+build-gfx900/cmake_install.cmake
+build-gfx900/build.ninja
+build-gfx900/.ninja_deps
+build-gfx900/.ninja_log
+build-gfx900/ml/
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# debug information files
+*.dwo
