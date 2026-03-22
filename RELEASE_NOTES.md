@@ -46,6 +46,15 @@ The `ollama` binary is distributed separately on the [Releases](../../releases) 
 
 ---
 
+## Repository Hygiene Policy (No Destructive Cleanup)
+
+- `ollama-src` remains the source-of-truth for patch history, implementation details, and validation docs.
+- `ollama-gfx900-starter-kit` is the distribution-oriented repository for prebuilt artifacts.
+- Cleanup is handled by role separation and documentation clarity, not by deleting investigation history from source.
+- If artifacts are intended for users, publish them via starter-kit releases instead of source-repo commits.
+
+---
+
 ## Known Limitations
 
 **Flash Attention**
